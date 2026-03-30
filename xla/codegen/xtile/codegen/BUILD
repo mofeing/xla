@@ -76,6 +76,7 @@ cc_library(
     deps = [
         ":dot_algorithms",
         ":emitter_helpers",
+        "//third_party/gloop/util/status:status_macros",
         "//xla:autotuning_proto_cc",
         "//xla:permutation_util",
         "//xla:shape_util",
